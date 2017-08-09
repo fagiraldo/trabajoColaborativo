@@ -48,11 +48,20 @@ public class EjercicioFunciones {
      * @param valor real  indica el valor a pagar por cada hora de trabajo
      * @return  numero flotante con el valor a pagar
      */
-    public static double calcularSalario(int horas, int valor){
+    public static double calcularSalario(int x, int y){
         double totalSalario = 0;
-        
-        
+        if (x<=40){
+            totalSalario = (x*y);
+        } else{
+            if (x>40 && x<=48){
+                totalSalario = (40*y)+((x-40)*y*2);
+            }else {
+                if (x>48);
+                totalSalario = (40*y)+(16*y)+((x-48)*y*3);
+            }
+        }
         return totalSalario;
+    
     }
     
 }
