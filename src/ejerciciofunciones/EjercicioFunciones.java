@@ -57,7 +57,7 @@ public class EjercicioFunciones {
                 totalSalario = (40*y)+((x-40)*y*2);
             }else {
                 if (x>48);
-                totalSalario = (40*y)+(16*y)+((x-48)*y*3);
+                totalSalario = 0;
             }
         }
         return totalSalario;
