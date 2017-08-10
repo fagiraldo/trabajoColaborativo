@@ -51,15 +51,10 @@ public class EjercicioFunciones {
     public static double calcularSalario(int x, int y){
         double totalSalario = 0;
         if (x<=40){
-            totalSalario = (x*y);
+            totalSalario = 40;
         } else{
-            if (x>40 && x<=48){
-                totalSalario = (40*y)+((x-40)*y*2);
-            }else {
-                if (x>48);
-                totalSalario = 0;
-            }
-        }
+            totalSalario= 40;
+        } 
         return totalSalario;
     
     }
